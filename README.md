@@ -8,7 +8,7 @@ https://utrechtuniversity.github.io/workshop-computational-reproducibility/docs/
 https://utrechtuniversity.github.io/workshop-computational-reproducibility/slides/slides_documentation.html#1
 
 
-Course will give steps/habits that are good return on investment in reproducibility.
+Course will give steps/habits that are good return on investment for writing reproducibile codes on the fly.
 
 ## Why spend time for reproducibility?
 The point isnt as much to make your code error free and very efficient but to document it well so:
