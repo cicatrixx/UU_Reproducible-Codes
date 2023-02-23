@@ -30,5 +30,18 @@ Distinguish folder types, name them accordingly:
 
 Easy place to choose a license for your project: https://choosealicense.com/
 
+## Tools for improving coding
+
+FOR READABILITY
+use consistent style in var naming and code structuring!
+There are style guides for better coding. There are **linters** that check if you adhere to style guides and give you comments on what to do (e.g. `lintr` in R and `autopep8` in python). Then there are **auto-formatters** that already improve the style (e.g. `styler` in R and `black` in python).
+
+In matlab, I found `mlint` and `checkcode`.
+![image](https://user-images.githubusercontent.com/38658817/220894350-71f6c1e2-ecfd-4efe-a349-6bffbd43f32a.png)
+
+Set reminders throughout your code for improvements you want to make using TODO/FIXME. this is an option in most programming languages. For matlab see here: https://www.mathworks.com/help/matlab/matlab_prog/add-reminders-to-files.html. This is like writing intermittent todos in latex file that you can compile into an overarching list in the end.
+
+
+
 
 
