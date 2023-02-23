@@ -28,6 +28,7 @@ Distinguish folder types, name them accordingly:
 **Human-generated**: code, paper, documentation
 **Project-generated**: clean data, figures, models...
 
+Easy place to choose a license for your project: https://choosealicense.com/
 
 
 
