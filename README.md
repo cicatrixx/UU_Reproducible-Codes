@@ -1,5 +1,5 @@
 # UU_Reproducible-Codes
-Notes from UU course on best practices in writing reproducible code
+My notes from UU course on best practices in writing reproducible code on 23-24 Feb 2023
 
 Course info is here:
 https://utrechtuniversity.github.io/workshop-computational-reproducibility/docs/4-introduction.html
@@ -41,7 +41,12 @@ In matlab, I found `mlint` and `checkcode`.
 
 Set reminders throughout your code for improvements you want to make using TODO/FIXME. this is an option in most programming languages. For matlab see here: https://www.mathworks.com/help/matlab/matlab_prog/add-reminders-to-files.html. This is like writing intermittent todos in latex file that you can compile into an overarching list in the end.
 
+In the long run, it is better to have many small buliding blocks than one big block function!
 
-
-
+Work on **code-refactoring**:
+- Go through all script and use colors to distinguish code sections 
+-- Use yellow for scripted code, purple for structured code (for-loops, functions, etc.), and green for comments 
+- Identify section that you can convert to function - add todos first, then prioritize what to do not versus what to save for later
+- Refactor your code for better readability and reusability
+  
 
