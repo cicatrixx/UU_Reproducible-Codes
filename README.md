@@ -1,5 +1,5 @@
 # UU_Reproducible-Codes
-My notes from UU course on best practices in writing reproducible code on 23-24 Feb 2023
+My notes from UU course on best practices in writing reproducible code on 23-24 Feb 2023. The course was focused on R and Python. So I did some further searches to find relevant things for me in matlab that are tracked here.
 
 Course info is here: https://utrechtuniversity.github.io/workshop-computational-reproducibility/docs/4-introduction.html
 Slides: 
@@ -45,9 +45,14 @@ Use combo of comments, whitespaces and sections to segment your codes intuitivel
 There are style guides for better coding. There are **linters** that check if you adhere to style guides and give you comments on what to do (e.g. `lintr` in R and `autopep8` in python). Then there are **auto-formatters** that already improve the style (e.g. `styler` in R and `black` in python).
 
 In matlab, there is a style guide: https://nl.mathworks.com/matlabcentral/fileexchange/45047-matlab-style-guidelines-cheat-sheet. I also found `mlint` and `checkcode`. But the standard code analyser is already giving these code improvement notices.
-![image](https://user-images.githubusercontent.com/38658817/220894350-71f6c1e2-ecfd-4efe-a349-6bffbd43f32a.png)
+![image](https://user-images.githubusercontent.com/38658817/220894350-71f6c1e2-ecfd-4efe-a349-6bffbd43f32a.png).
 
 Set reminders throughout your code for improvements you want to make using TODO/FIXME. this is an option in most programming languages. For matlab see here: https://www.mathworks.com/help/matlab/matlab_prog/add-reminders-to-files.html. This is like writing intermittent todos in latex file that you can compile into an overarching list in the end.
+
+For comments, matlab also has a MarkUp language that can help create formatted text from code. Using markup in comments describing functions will autogenerate pretty documentation pages for matlab. 
+
+Matlab Markup Cheatsheet: https://nl.mathworks.com/matlabcentral/answers/help/markup
+Examples: https://nl.mathworks.com/help/matlab/matlab_prog/marking-up-matlab-comments-for-publishing.html#btfv_lg-1
 
 FOR REUSABILITY
 In the long run, it is better to have many small buliding blocks than one big block function!
