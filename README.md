@@ -33,7 +33,7 @@ Distinguish folder types, name them accordingly:
 
 Easy place to choose a license for your project: https://choosealicense.com/
 
-## Tools for improving coding
+### Tools for improving coding
 
 FOR READABILITY
 use consistent style in var naming and code structuring! Popular var/function [naming conventions](https://curc.readthedocs.io/en/latest/programming/coding-best-practices.html#variable-naming-conventions) are: 
@@ -65,3 +65,12 @@ Work on **code-refactoring**:
   
 FOR ROBUSTNESS
 Make your assumptions/expectations transparent by adding them explicitly. in the simplest case, assumptions can be if/while statements. for fancier implementations, use try/catch/except/finally statements
+
+## Documentation
+Write readme, comments in code, notebooks w examples, change log
+
+Remove zombie code when sharing!
+
+Write comments describing ***why*** the code is here instead of ***how*** the code works step by step. The code will describe how it works
+
+Use docstrings in R for auto generate documentation
